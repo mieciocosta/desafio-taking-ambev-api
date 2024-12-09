@@ -1,0 +1,48 @@
+{
+  "login": {
+    "email": "beltraa2no@qa.com.br",
+    "password": "teste"
+  },
+  "loginInvalido": {
+    "email": "invalido@qa.com",
+    "password": "senha_errada"
+  },
+  "usuarios": {
+    "novoUsuario": {
+      "nome": "Teste QA",
+      "email": "teste.qa@exemplo.com",
+      "password": "senha123",
+      "administrador": "true"
+    },
+    "usuarioEditado": {
+      "nome": "Teste QA Editado",
+      "email": "editado.qa@exemplo.com",
+      "password": "novaSenha123",
+      "administrador": "false"
+    }
+  },
+  "produtos": {
+    "novoProduto": {
+      "nome": "Produto QA",
+      "preco": 100,
+      "descricao": "Produto para testes",
+      "quantidade": 10
+    },
+    "produtoEditado": {
+      "nome": "Produto QA Editado",
+      "preco": 150,
+      "descricao": "Produto editado para testes",
+      "quantidade": 20
+    }
+  },
+  "carrinhos": {
+    "novoCarrinho": {
+      "produtos": [
+        {
+          "idProduto": "BeeJh5lz3k6kSIzA",
+          "quantidade": 2
+        }
+      ]
+    }
+  }
+}
